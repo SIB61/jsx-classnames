@@ -1,0 +1,30 @@
+{
+  "name": "@sib61/jsx-classnames",
+  "version": "0.0.6",
+  "description": "for making writting module classnames easier in jsx",
+  "main": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:beta":"rm -rf dist && tsc && npm publish --tag beta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sib61/jsx-classnames.git"
+  },
+  "keywords": [
+    "jsx",
+    "react",
+    "preact",
+    "solid",
+    "classnames",
+    "module",
+    "css"
+  ],
+  "author": "sib61",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sib61/jsx-classnames/issues"
+  },
+  "homepage": "https://github.com/sib61/jsx-classnames#readme",
+  "files": ["dist"]
+}
